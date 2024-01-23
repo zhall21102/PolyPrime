@@ -9,6 +9,11 @@ Languages currently supported:
 - D
 - Fortran
 - Java
+- JavaScript
 - Scratch
 - Powershell
 - Python 3
+
+
+Notes:
+- JavaScript uses Node.js and requires the readline-sync module
