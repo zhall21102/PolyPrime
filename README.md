@@ -3,6 +3,7 @@ A prime checking algorithm implemented in many languages.
 
 Languages currently supported:
 - Ada
+- B
 - C
 - C++
 - C#
@@ -17,3 +18,4 @@ Languages currently supported:
 
 Notes:
 - JavaScript uses Node.js and requires the readline-sync module
+- B was compiled with ybc, found here https://github.com/AlexCeleste/ybc
