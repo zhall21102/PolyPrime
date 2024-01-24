@@ -3,6 +3,7 @@ A prime checking algorithm implemented in many languages.
 
 Languages currently supported:
 - Ada
+- AutoHotkey
 - B
 - C
 - C++

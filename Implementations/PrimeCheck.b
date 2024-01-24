@@ -9,18 +9,6 @@ getstr(s)
     return(s) ;
 }
 
-putstr(s)
-{
-    auto i;
-    i = 0;
-    while(s[i] != 10)
-    {
-        putchar(s[i]);
-        i++;
-    }
-    putchar('*n');
-}
-
 strLen(s)
 {
     auto i;
@@ -81,7 +69,7 @@ main( )
     num = strToInt(numStr);
     auto i;
     i = 2;
-    while(i < sqrt(num))
+    while(i < sqrt(num)+1)
     {
         if(num%i==0)
         {
