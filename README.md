@@ -10,6 +10,7 @@ Languages currently supported:
 - C#
 - D
 - Fortran
+- Haskell
 - Java
 - JavaScript
 - Julia
