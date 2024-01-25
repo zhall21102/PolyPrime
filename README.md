@@ -6,19 +6,20 @@ Languages currently supported:
 - AutoHotkey
 - B
 - C
-- C++
 - C#
+- C++
 - D
 - Fortran
 - Haskell
 - Java
 - JavaScript
 - Julia
+- Perl
 - Powershell
+- Python 3
 - Racket
 - Ruby
 - Rust
-- Python 3
 - Scratch
 - TI-BASIC
 
