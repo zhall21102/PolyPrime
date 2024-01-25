@@ -13,6 +13,7 @@ Languages currently supported:
 - Java
 - JavaScript
 - Powershell
+- Racket
 - Ruby
 - Rust
 - Python 3
