@@ -12,6 +12,7 @@ Languages currently supported:
 - Fortran
 - Java
 - JavaScript
+- Julia
 - Powershell
 - Racket
 - Ruby
