@@ -14,10 +14,12 @@ Languages currently supported:
 - Java
 - JavaScript
 - Julia
+- Lua
 - Perl
 - Powershell
 - Python 3
 - Racket
+- RISC-V
 - Ruby
 - Rust
 - Scratch
