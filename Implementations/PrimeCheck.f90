@@ -2,8 +2,7 @@ program hello
 integer(kind = 16) :: num, i
 implicit = No
 print *, 'Enter a number'
-!read *, num
-num = 2999622427590709
+read *, num
 do i = 2, int(sqrt(real(num)) + 1)
     if (modulo(num,i) == 0) then
         WRITE(*,  '( I0, " is not prime: ", I0, "*", I0 )' )  num, i, num/i

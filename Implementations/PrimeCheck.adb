@@ -5,8 +5,7 @@ num : Long_Integer;
 div : Long_Integer;
 begin
     Ada.Text_IO.Put_Line("Enter a number");
-    --num := Long_Integer'Value(Ada.Text_IO.Get_Line);
-    num := 2999622427590709;
+    num := Long_Integer'Value(Ada.Text_IO.Get_Line);
     for i in 2 .. Long_Integer(Ada.Numerics.Elementary_Functions.sqrt(float(num))) + 1 loop
         if num mod i = 0 then
             div := num / i;

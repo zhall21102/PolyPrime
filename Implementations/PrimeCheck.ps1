@@ -1,6 +1,5 @@
 Write-output "Enter a number"
-#[uInt64] $num= Read-Host 
-[uInt64] $num = 2999622427590709
+[uInt64] $num= Read-Host 
 for ($i = 2; $i -le [math]::Sqrt($num)+1; $i++)
 {
     $mod = $num % $i

@@ -4,8 +4,8 @@ void main()
 {
     writeln("Enter a number");
     ulong num;
-    //readf(" %d", &num);
-    num = 2999622427590709;
+    readf(" %d", &num);
+    //num = 2999622427590709;
     for(ulong i = 2; i < sqrt(real(num))+1; i++)
     {
         if(num % i == 0)

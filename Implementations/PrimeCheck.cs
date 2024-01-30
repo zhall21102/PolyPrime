@@ -7,8 +7,7 @@ namespace PrimeCheck
         {
             ulong num;
             Console.WriteLine("Enter a number");
-            //num = Convert.ToUInt64(Console.ReadLine());
-            num = 2999622427590709;
+            num = Convert.ToUInt64(Console.ReadLine());
             for (ulong i = 2; i < Math.Sqrt(num) + 1; i++) 
             {
                 if (num % i == 0) 

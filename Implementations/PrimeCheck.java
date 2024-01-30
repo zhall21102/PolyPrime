@@ -6,8 +6,7 @@ public class PrimeCheck
     {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter a number");
-        //long num = input.nextLong();
-        long num = 2999622427590709l;
+        long num = input.nextLong();
         for (long i = 2; i < Math.sqrt(num)+1; i++) 
         {
             if (num % i == 0) 

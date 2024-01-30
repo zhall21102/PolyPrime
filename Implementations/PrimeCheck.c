@@ -5,8 +5,7 @@ int main()
 {
     unsigned long long num;
     printf("Enter a number\n");
-    //scanf("%llu", &num);
-    num = 2999622427590709;
+    scanf("%llu", &num);
     for(unsigned long long i = 2; i < sqrt(num) + 1; i++)
     {
         if(num % i == 0)
