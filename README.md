@@ -9,6 +9,7 @@ Languages currently supported:
 - C#
 - C++
 - D
+- Excel
 - Fortran
 - Haskell
 - Java
