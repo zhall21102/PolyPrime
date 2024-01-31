@@ -25,6 +25,7 @@ Languages currently supported:
 - Rust
 - Scratch
 - TI-BASIC
+- Visual Basic
 
 
 Notes:
