@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>PrimeCheck</title>
+	</head>
+	<body style="background-color:rgb(255, 251, 212);">
+        <h3> Enter a number </h1>
+        <input type="text" id="num" value="">   
+        <button onclick="primeCheck()">Check</button>        
+        <p id="demo"></p>
+	</body>
+    <script>
+    function primeCheck()
+    {
+        let num = document.getElementById("num").value;
+        for(let i = 2; i < Math.sqrt(num)+1; i++)
+        {
+            if(num % i == 0)
+            {   
+                let div = num / i;
+                document.getElementById("demo").innerHTML = (num.toString()+" is not prime: "+i.toString()+"*"+div.toString());
+                return;
+            }
+        }
+        document.getElementById("demo").innerHTML = (num.toString() + " is prime");
+    }
+    </script>
+</html>
