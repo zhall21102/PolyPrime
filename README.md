@@ -5,6 +5,7 @@ Languages currently supported:
 - Ada
 - AutoHotkey
 - B
+- Bash
 - C
 - C#
 - C++
