@@ -15,6 +15,7 @@ Languages currently supported:
 - Java
 - JavaScript
 - Julia
+- Kotlin
 - Lua
 - Perl
 - Powershell
