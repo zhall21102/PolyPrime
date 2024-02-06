@@ -19,6 +19,7 @@ Languages currently supported:
 - Julia
 - Kotlin
 - Lua
+- MATLAB
 - Perl
 - Powershell
 - Python 3
