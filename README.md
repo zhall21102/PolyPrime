@@ -20,6 +20,7 @@ Languages currently supported:
 - Kotlin
 - Lua
 - MATLAB
+- Odin
 - Perl
 - Powershell
 - Python 3

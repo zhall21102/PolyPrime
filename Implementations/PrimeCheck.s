@@ -26,13 +26,15 @@ sqrt:
 
     add    s1, zero, t0       # s1 = sqrt(num)
     li     t0, 2              # t0 is i
-
+    bge t0, s1,  prime        # edge case
+    
 loop:
     rem    t1, s0, t0         # t1 = num % i
     beq    t1, zero, notprime # branch to notprime if t1 == zero
     addi   t0, t0, 1          # increment i
-    ble    t0, s1, loop       # loop while i i< sqrt(num)
+    ble    t0, s1, loop       # loop while i < sqrt(num)
 
+prime:
     add    a0, zero, s0       # load num
     li     a7, 1              # int output
     ecall                     # system call
