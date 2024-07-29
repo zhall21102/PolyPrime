@@ -12,6 +12,7 @@ Languages currently supported:
 - D
 - Excel
 - Fortran
+- Go
 - Haskell
 - HTML
 - Java
