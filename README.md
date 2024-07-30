@@ -32,6 +32,7 @@ Languages currently supported:
 - Scratch
 - TI-BASIC
 - Visual Basic
+- Zig
 
 
 Notes:

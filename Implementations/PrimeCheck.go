@@ -13,7 +13,7 @@ func main() {
     str := ""
     fmt.Scan(&str)
     num.SetString(str, 10)
-    for  i := big.NewInt(2); i.Cmp(sqrt.Sqrt(num)) == -1; i.Add(i, big.NewInt(1)) {
+    for  i := big.NewInt(2); i.Cmp(sqrt.Add(sqrt.Sqrt(num), big.NewInt(1))) == -1; i.Add(i, big.NewInt(1)) {
         tmp.Mod(num, i)
         if  tmp.Cmp(big.NewInt(0)) == 0 {
             fmt.Print(num, " is not prime: ", i, "*", tmp.Div(num, i), "\n")
