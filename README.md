@@ -31,6 +31,7 @@ Languages currently supported:
 - Rust
 - Scratch
 - TI-BASIC
+- VHDL (simulation)
 - Visual Basic
 - Zig
 
